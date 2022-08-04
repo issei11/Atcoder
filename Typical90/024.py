@@ -1,0 +1,7 @@
+N,K = map(int,input().split())
+A = list(map(int,input().split()))
+B = list(map(int,input().split()))
+sumA = sum(A)
+sumB = sum(B)
+x = abs(sumB-sumA)
+print("Yes" if x%2 == K%2 and K >= x else "No")

@@ -1,0 +1,1 @@
+print(float('inf')*2 == float('inf'))
