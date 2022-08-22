@@ -38,7 +38,7 @@ while p_e < N:
                                 print('Yes')
                                 exit()
                             elif q_e+1 < r_s:
-                                q_e += 1
+                                #q_e += 1
                                 break
                             elif q_e+1 > r_s:
                                 S_r -= A[r_s]
@@ -56,7 +56,7 @@ while p_e < N:
                     q_e += 1
                     S_q += A[q_e]
                 elif p_e+1 < q_s:
-                    p_e += 1
+                    #p_e += 1
                     break
                 elif p_e+1 > q_s:
                     S_q -= A[q_s]
